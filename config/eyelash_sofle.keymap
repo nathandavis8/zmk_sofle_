@@ -96,11 +96,11 @@
 
         System {
             bindings = <
-&kp TILDE   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6     &kp F7    &kp F8      &kp F9     &kp F10         &trans
-&trans      &bt BT_PRV    &bt BT_NXT    &mkp LCLK     &mkp MCLK     &mkp RCLK       &mmv MOVE_DOWN   &kp PG_UP  &kp END   &kp UP      &kp HOME   &kp UNDERSCORE  &kp PERCENT
-&trans      &kp TILDE     &trans        &trans        &mkp MB4      &mkp MB5        &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN    &kp RIGHT  &kp LEFT_BRACE  &kp RIGHT_BRACE
-&trans      &trans        &trans        &trans        &trans        &trans          &mmv MOVE_RIGHT  &trans     &trans    &kp K_UNDO  &soft_off  &SHIFT_MCLK     &trans
-&kp C_MUTE  &trans        &bl BL_TOG    &kp K_PASTE   &kp K_COPY    &trans          &mkp LCLK        &trans     &trans    &trans      &trans     &trans
+&kp TILDE   &bt BT_SEL 0  &bt BT_SEL 1      &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6     &kp F7    &kp F8      &kp F9     &kp F10         &trans
+&trans      &bt BT_PRV    &bt BT_NXT        &mkp LCLK     &mkp MCLK     &mkp RCLK       &mmv MOVE_DOWN   &kp PG_UP  &kp END   &kp UP      &kp HOME   &kp UNDERSCORE  &kp PERCENT
+&trans      &kp TILDE     &trans            &trans        &mkp MB4      &mkp MB5        &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN    &kp RIGHT  &kp LEFT_BRACE  &kp RIGHT_BRACE
+&trans      &trans        &kp LEFT_CONTROL  &kp LEFT_ALT  &kp DELETE    &trans          &mmv MOVE_RIGHT  &trans     &trans    &kp K_UNDO  &soft_off  &SHIFT_MCLK     &trans
+&kp C_MUTE  &trans        &bl BL_TOG        &kp K_PASTE   &kp K_COPY    &trans          &mkp LCLK        &trans     &trans    &trans      &trans     &trans
             >;
 
             display-name = "layer2";

@@ -123,7 +123,7 @@ layers:
   - Sft+>
   - Sft+)
   - '&bl BL_TOG'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '=', s: +}
   - $$mdi:mouse-left-click-outline$$
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -181,7 +181,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - UNDO
   - '&soft_off'
-  - '&SHIFT_MCLK'
+  - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}

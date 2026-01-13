@@ -87,7 +87,7 @@
 &trans      &trans      &kp LS(AMPS)  &kp LS(STAR)   &kp LS(LPAR)   &kp ASTERISK    &mmv MOVE_DOWN   &trans      &kp N7  &kp N8  &kp N9   &kp F11      &kp F12
 &trans      &trans      &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp PLUS        &mmv MOVE_LEFT   &trans      &kp N4  &kp N5  &kp N6   &kp LBRC     &kp RBRC
 &trans      &sys_reset  &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)  &kp MINUS       &mmv MOVE_RIGHT  &kp INSERT  &kp N1  &kp N2  &kp N3   &bootloader  &trans
-&kp C_MUTE  &kp LS(LT)  &kp LS(GT)    &kp LS(RPAR)   &bl BL_TOG     &trans          &mkp LCLK        &trans      &trans  &kp N0  &kp DOT  &kp ENTER
+&kp C_MUTE  &kp LS(LT)  &kp LS(GT)    &kp LS(RPAR)   &bl BL_TOG     &kp EQUAL       &mkp LCLK        &trans      &trans  &kp N0  &kp DOT  &kp ENTER
             >;
 
             display-name = "layer1";
@@ -99,7 +99,7 @@
 &kp TILDE   &bt BT_SEL 0  &bt BT_SEL 1      &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6     &kp F7    &kp F8      &kp F9     &kp F10         &trans
 &trans      &bt BT_PRV    &bt BT_NXT        &mkp LCLK     &mkp MCLK     &mkp RCLK       &mmv MOVE_DOWN   &kp PG_UP  &kp END   &kp UP      &kp HOME   &kp UNDERSCORE  &kp PERCENT
 &trans      &kp TILDE     &trans            &trans        &mkp MB4      &mkp MB5        &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN    &kp RIGHT  &kp LEFT_BRACE  &kp RIGHT_BRACE
-&trans      &trans        &kp LEFT_CONTROL  &kp LEFT_ALT  &kp DELETE    &trans          &mmv MOVE_RIGHT  &trans     &trans    &kp K_UNDO  &soft_off  &SHIFT_MCLK     &trans
+&trans      &trans        &kp LEFT_CONTROL  &kp LEFT_ALT  &kp DELETE    &trans          &mmv MOVE_RIGHT  &trans     &trans    &kp K_UNDO  &soft_off  &kp EQUAL       &trans
 &kp C_MUTE  &trans        &bl BL_TOG        &kp K_PASTE   &kp K_COPY    &trans          &mkp LCLK        &trans     &trans    &trans      &trans     &trans
             >;
 

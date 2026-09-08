@@ -56,7 +56,7 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-command$$
+  - LWIN
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -100,7 +100,7 @@ layers:
   - +
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '4', s: $}
+  - {t: '4', s: $, type: held alternate}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
   - '{'
@@ -165,7 +165,7 @@ layers:
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PG DN
-  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:arrow-left-bold$$', type: held alternate}
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - '{'
@@ -328,3 +328,7 @@ layers:
 combos:
 - p: [14, 28, 40]
   k: '&soft_off'
+- p: [34, 59]
+  k: {t: layer1, h: '$$mdi:gesture-tap-hold$$'}
+- p: [34, 60]
+  k: {t: layer2, h: '$$mdi:gesture-tap-hold$$'}
